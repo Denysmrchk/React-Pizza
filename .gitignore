@@ -1,0 +1,8 @@
+*.log
+*.tmp
+
+.config
+
+/node_modules/
+
+/assets/*

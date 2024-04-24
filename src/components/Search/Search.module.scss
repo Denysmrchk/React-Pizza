@@ -1,0 +1,28 @@
+.root {
+  position: block;
+  margin-left: 50px;
+  padding: 12px 20px;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 12px 20px;
+  width: 350px;
+  border-radius: 10px;
+
+  @media (max-width: 1350px) {
+    width: 30%;
+  }
+  @media (min-width: 1200px) {
+    &:focus {
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      width: 440px;
+    }
+  }
+  @media (max-width: 645px) {
+    width: 40%;
+    margin: 15px;
+    &:focus {
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      width: 60%;
+    }
+  }
+}
